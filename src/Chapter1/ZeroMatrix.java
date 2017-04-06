@@ -21,11 +21,12 @@ public class ZeroMatrix {
         for (int[] ints : matrix) {
             for (int anInt : ints) {
                 if(anInt==0){
-                    row[ints]=0;
+                    row[anInt]=0;
 
                 }
             }
 
         }
+        return matrix;
     }
 }
